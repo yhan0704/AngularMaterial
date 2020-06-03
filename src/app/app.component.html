@@ -1,11 +1,19 @@
-<nav mat-tab-nav-bar>
+<mat-toolbar color="primary">
+    <span>My Application</span>
+    <div class="spacer"></div>
+    <a mat-button routerLink="header">Home</a>
+    <a mat-button routerLink="header">About</a>
+    <a mat-button routerLink="shopping-list">Shopping List</a>
+    <a mat-button mat-raised-button color="accent" routerLink="">Sign Up</a>
+</mat-toolbar>
+<!-- <nav mat-tab-nav-bar>
     <a mat-tab-link
        *ngFor="let routerLink of routeLinks; let i = index"
        [routerLink]="routerLink.link"
        [active]="activeLinkIndex === i"
        (click)="activeLinkIndex = i"
     >{{routerLink.label}}</a>
-</nav>
+</nav> -->
 
 
 <router-outlet></router-outlet>

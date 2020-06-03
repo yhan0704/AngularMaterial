@@ -18,8 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
-
-
+import {MatMenuModule} from '@angular/material/menu';
+import {MatToolbarModule} from '@angular/material/toolbar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +40,9 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
     MatInputModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatMenuModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
