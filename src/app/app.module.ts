@@ -20,6 +20,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
+import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     RecipeDetailComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatTabsModule,
     AppRoutingModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

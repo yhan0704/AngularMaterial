@@ -1,2 +1,7 @@
-<p>recipe-list works!</p>
-<app-recipe-item></app-recipe-item>
+<mat-card class="matCardSize" *ngFor="let recipe of recipes">
+    <div class="recipeImage">
+        <img mat-card-image src={{recipe.imagePath}}>
+        <mat-card-content>{{recipe.name}}</mat-card-content>
+        <mat-card-content>{{recipe.description}}</mat-card-content>
+    </div>
+</mat-card>
