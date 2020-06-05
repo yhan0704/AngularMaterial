@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'shopping-list/shopping-edit', component: ShoppingEditComponent },
   { path: 'recipes', component: RecipesComponent },
   { path: 'recipes/recipe-list', component: RecipeListComponent },
-  { path: 'recipes/recipe-list/recipe-item', component: RecipeItemComponent },
+  { path: 'recipes/recipe-list/:id', component: RecipeItemComponent },
   { path: 'recipes/recipe-detail', component: RecipeDetailComponent },
   { path: '**', component: NotFoundPageComponent }
 ];
