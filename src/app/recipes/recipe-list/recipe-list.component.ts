@@ -9,7 +9,13 @@ import { Recipe } from './recipe.model';
 export class RecipeListComponent implements OnInit {
 
   public recipes = [
-    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg')
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
+    new Recipe('Black Noodle', 'blar blar balr...', 'https://live.staticflickr.com/3231/2604691568_68922a4c7e_b.jpg'),
   ];
 
   constructor() { }

@@ -1,6 +1,19 @@
+.matCardSize{
+    /* display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around; */
+}
 
-.recipeImage img{
-    margin: 30px;
-    width: 600px;
-    height: 450px;
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .responsive{
+        max-width: 100%;
+        height: auto;
+    }
 }
