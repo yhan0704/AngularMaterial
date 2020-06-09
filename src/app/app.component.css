@@ -1,4 +1,32 @@
+.navbar{
+    padding: 5% 15% 5% 15%;
+    font-size: 25px;
+    background-color:lightcoral;
+}
+
+.mat-drawer-container.mat-sidenav-container.mat-drawer-transition.mat-drawer-container-has-open{
+    height:500px;
+}
+
+.mat-focus-indicator.mat-button.mat-button-base{
+    font-size: 16px;
+}
+
+.mat-icon.notranslate.material-icons.mat-icon-no-color{
+    display: none;
+}
 
 .spacer{
     flex: 1 1 auto;
+}
+
+
+@media only screen and (max-width: 918px) {
+    .mat-focus-indicator.mat-button.mat-button-base{
+        display: none;
+    }
+
+    .mat-icon.notranslate.material-icons.mat-icon-no-color{
+        display: inline;
+    }
 }

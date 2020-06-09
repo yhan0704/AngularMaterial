@@ -1,9 +1,9 @@
 <div class="matCardContainer">
     <mat-card class="matCard" [style.margin]="'30px'" *ngFor="let recipe of recipes">
     <div class="recipeImage">
-        <mat-card-content>{{recipe.name}}</mat-card-content>
-        <mat-card-content>{{recipe.description}}</mat-card-content>
-        <a [routerLink]="[recipe.id]"><img class="responsive" mat-card-image  [style.height]="'300px'" src={{recipe.imagePath}}></a> 
+        <strong><mat-card-content class="recipeName">{{recipe.name}}</mat-card-content></strong>
+        <mat-card-content class="recipeDesc">{{recipe.description}}</mat-card-content>
+        <a [routerLink]="['recipe-list', recipe.id]"><img class="responsive" mat-card-image  [style.height]="'300px'" src={{recipe.imagePath}}></a> 
     </div>
     </mat-card>
 </div>

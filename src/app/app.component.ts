@@ -9,6 +9,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public routeLinks = [];
   public activeLinkIndex = 0;
+  events: string[] = [];
+  opened: boolean;
+
+  shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
 
   constructor(private router: AppRoutingModule){
     this.routeLinks = [

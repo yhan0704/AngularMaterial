@@ -6,6 +6,17 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.mat-card.mat-focus-indicator.matCard{
+   text-align: center;
+}
+.recipeName{
+    font-size: 23px;
+    text-align: center;
+}
+
+.recipeDesc{
+    margin-bottom: 10%;
+}
 
 .matCard{
     width: 25%;
